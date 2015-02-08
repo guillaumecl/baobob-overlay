@@ -1,0 +1,7 @@
+baobob-overlay
+
+This repository contains ebuilds for the various projects that can be found on my github page:
+
+https://github.com/guillaumecl
+
+This can be installed using layman. The packages here are the ones I use myself since this repository is primarily intented for my own use. This means they should be stable enough and I will happily fix any bug one may encounter.
