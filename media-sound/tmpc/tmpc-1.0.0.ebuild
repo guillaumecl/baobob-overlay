@@ -7,7 +7,7 @@ SRC_URI="https://github.com/guillaumecl/tmpc/releases/download/v${PV}/${P}.tar.g
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 arm hppa ppc ~sparc x86"
+KEYWORDS="amd64 ~arm ~hppa ~ppc ~sparc x86"
 IUSE=""
 
 pkg_linguas=( fr )
@@ -30,6 +30,6 @@ src_configure() {
 	done
 
 	mycmakeargs=( -DTMPC_TRANSLATION_DIR="/usr/share/tmpc" )
-	
+
 	cmake-utils_src_configure
 }
