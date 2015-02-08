@@ -3,7 +3,7 @@ inherit cmake-utils
 
 DESCRIPTION="Small mpd client"
 HOMEPAGE="https://github.com/guillaumecl/tmpc"
-SRC_URI="https://github.com/guillaumecl/tmpc/releases/download/v${PV}/${P}.tar.gz"
+SRC_URI="https://github.com/guillaumecl/tmpc/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
