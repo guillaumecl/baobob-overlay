@@ -11,7 +11,4 @@ KEYWORDS="amd64 ~arm ~hppa ~ppc ~sparc x86"
 IUSE=""
 
 RDEPEND="media-libs/libv4l"
-DEPEND="
-	${RDEPEND}
-	dev-util/cmake
-"
+DEPEND="${RDEPEND}"
